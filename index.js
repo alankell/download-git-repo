@@ -114,7 +114,7 @@ function github(repo, clone) {
   if (clone)
     url = "git@" + repo.host + ":" + repo.owner + "/" + repo.name + ".git";
   else
-    url = "https://" + repo.host + "/" + repo.owner + "/" + repo.name + "/archive/" + repo.checkout + ".zip";
+    url = "http://" + repo.host + "/" + repo.owner + "/" + repo.name + "/archive/" + repo.checkout + ".zip";
 
   return url;
 }
@@ -132,7 +132,7 @@ function gitlab(repo, clone) {
   if (clone)
     url = "git@" + repo.host + ":" + repo.owner + "/" + repo.name + ".git";
   else
-    url = "https://" + repo.host + "/" + repo.owner + "/" + repo.name + "/repository/archive.zip?ref=" + repo.checkout;
+    url = "http://" + repo.host + "/" + repo.owner + "/" + repo.name + "/repository/archive.zip?ref=" + repo.checkout;
 
   return url;
 }
@@ -150,7 +150,7 @@ function bitbucket(repo, clone) {
   if (clone)
     url = "git@" + repo.host + ":" + repo.owner + "/" + repo.name + ".git";
   else
-    url = "https://" + repo.host + "/" + repo.owner + "/" + repo.name + "/get/" + repo.checkout + ".zip";
+    url = "http://" + repo.host + "/" + repo.owner + "/" + repo.name + "/get/" + repo.checkout + ".zip";
 
   return url;
 }

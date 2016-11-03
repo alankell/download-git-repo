@@ -1,8 +1,8 @@
 {
-  "name": "download-git-repo",
-  "version": "0.2.1",
+  "name": "git-download-cli",
+  "version": "0.1.0",
   "license": "MIT",
-  "repository": "git://github.com/flipxfx/download-git-repo",
+  "repository": "https://github.com/alankell/download-git-repo",
   "description": "Download and extract a git repository (GitHub, GitLab, Bitbucket) from node.",
   "keywords": [
     "download",

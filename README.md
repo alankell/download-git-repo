@@ -1,4 +1,4 @@
-# download-git-repo
+# git-download-cli
 
 Download and extract a git repository (GitHub, GitLab, Bitbucket) from node.
 
