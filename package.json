@@ -2,7 +2,7 @@
   "name": "git-download-cli",
   "version": "0.1.0",
   "license": "MIT",
-  "repository": "https://github.com/alankell/download-git-repo",
+  "repository": "https://github.com/alankell/download-git-repog",
   "description": "Download and extract a git repository (GitHub, GitLab, Bitbucket) from node.",
   "keywords": [
     "download",

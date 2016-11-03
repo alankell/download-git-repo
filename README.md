@@ -4,7 +4,7 @@ Download and extract a git repository (GitHub, GitLab, Bitbucket) from node.
 
 ## Installation
 
-    $ npm install download-git-repo
+    $ npm install git-download-cli
 
 ## API
 
@@ -53,7 +53,7 @@ download('bitbucket:flipxfx/download-git-repo-fixture#my-branch', 'test/tmp', { 
 
 ## Thanks
 
-To [ianstormtaylor/download-github-repo](https://github.com/ianstormtaylor/download-github-repo) for the head start.
+To [flipxfx/download-git-repo](https://github.com/flipxfx/download-git-repo) for the head start.
 
 ## License
 
